@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}ID Card Management{% endblock %}
+{% block content %}
+<h3 class="text-center mb-4">ID Card Management</h3>
+<div class="row justify-content-center">
+    <div class="col-md-4 mb-3">
+        <a href="/add-student" class="btn btn-outline-primary w-100">Add Student</a>
+    </div>
+    <div class="col-md-4 mb-3">
+        <a href="/modify-student" class="btn btn-outline-warning w-100">Modify Student</a>
+    </div>
+    <div class="col-md-4 mb-3">
+        <a href="/show-students" class="btn btn-outline-info w-100">Show Students</a>
+    </div>
+</div>
+{% endblock %}
